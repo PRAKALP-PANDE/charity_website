@@ -1,0 +1,91 @@
+/* Navigation */
+#navbar{
+    flex-direction: column;
+}
+
+#navbar ul li a{
+    font-size: 0.5rem;
+    padding: 0px 7px;
+    padding-bottom: 8px;
+}
+/* Home section */
+#home{
+    height: 370px; 
+    padding: 3px 28px;
+}
+
+#home::before{
+    height: 480px; 
+}
+
+#home p{
+    font-size: 13px;
+}
+
+/* Services section  */
+#services{
+    /* flex-direction: column; */
+    flex-wrap: wrap;
+}
+
+#services .box { 
+    padding: 14px;
+    margin: 2px 0px; 
+    margin-bottom: 20px;
+}
+#fund .fund-container{
+    flex-direction: column;
+}
+#fund .fund-container img{ 
+    height: 160px;
+    margin: auto;
+    display: block;
+    width: 159px;
+ }
+ #fundp{
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+}
+/* about */
+
+.team #member{
+    margin: 18px 10px;
+}
+/* appreciation */
+
+#appreciation .container{ 
+    flex-direction: column;
+    margin: 7px 2px;
+}
+
+/* Contact us section */
+#contact {
+    display: flex;
+    flex-direction: column;
+}
+#contact-box form{
+    width:80%;
+}
+/* Footer */
+
+/* Utility classes */
+.h-primary{
+    font-size:26px;
+}
+.btn{
+    font-size: 13px;
+    padding: 4px 8px;
+}
+.navbtn{
+    padding: 0px 7px;
+    /* border: 2px solid #072654;
+    background-color: #072654;
+    color: white;
+    margin: 20px;
+    font-size: 1.5rem;
+    border-radius: 10px; */
+    /* box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px; */
+
+
+}
